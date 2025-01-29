@@ -21,7 +21,7 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 app.use("/user", userRouter)
 
 app.get("/", (req, res) => {
-    res.send("Welcome to Cars Management API");
+    res.send("Welcome to Anish Cars Management API");
 })
 
 const PORT = process.env.PORT || 5000;
